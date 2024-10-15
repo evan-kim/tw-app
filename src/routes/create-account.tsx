@@ -81,7 +81,7 @@ export default function CreateAccount(){
     };
     return (
         <Wrapper>
-            <Title>Join to ❤️</Title>
+            <Title>Join to1 ❤️</Title>
             <Form onSubmit={onSubmit}>
                 <Input name="name" value={name} placeholder="Name" onChange={onChange} type="text" required />
                 <Input name="email" value={email} placeholder="Email" onChange={onChange} type="email" required />
