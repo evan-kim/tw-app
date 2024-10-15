@@ -10,6 +10,7 @@ import reset from 'styled-reset';
 import { useState, useEffect } from 'react';
 import { auth } from './firebase';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
