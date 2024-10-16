@@ -11,6 +11,7 @@ import { useState, useEffect } from 'react';
 import { auth } from './firebase';
 import ProtectedRoute from './components/protected-route';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
